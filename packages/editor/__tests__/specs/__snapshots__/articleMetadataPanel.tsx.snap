@@ -1,0 +1,879 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Article Metadata Panel should render 1`] = `
+<ArticleMetadataPanel
+  value={
+    Object {
+      "authors": Array [
+        Object {
+          "id": "authorId2",
+          "name": "Hermione Granger",
+        },
+      ],
+      "breaking": true,
+      "image": undefined,
+      "lead": "",
+      "preTitle": "Moonstone Uses",
+      "properties": Array [
+        Object {
+          "key": "abc",
+          "public": false,
+          "value": "def",
+        },
+      ],
+      "shared": false,
+      "slug": "the-properties-of-moonstone-and-its-uses",
+      "tags": Array [
+        "moonstone",
+        "potions",
+      ],
+      "title": "The Properties of Moonstone And Its Uses",
+    }
+  }
+>
+  <Styled(div)>
+    <div>
+      <PanelHeader
+        leftChildren={
+          <ForwardRef(NavigationButton)
+            icon={[Function]}
+            label="articleEditor.panels.close"
+            onClick={[Function]}
+          />
+        }
+        title="articleEditor.panels.metadata"
+      >
+        <Styled(div)>
+          <div>
+            <ForwardRef(NavigationButton)
+              icon={[Function]}
+              label="articleEditor.panels.close"
+              onClick={[Function]}
+            >
+              <Styled(button)
+                onClick={[Function]}
+                styleProps={
+                  Object {
+                    "active": undefined,
+                    "disabled": undefined,
+                  }
+                }
+              >
+                <button
+                  onClick={[Function]}
+                >
+                  <Icon
+                    element={[Function]}
+                    scale="2em"
+                  >
+                    <MaterialIconClose
+                      role="img"
+                    >
+                      <svg
+                        role="img"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                        />
+                        <path
+                          d="M0 0h24v24H0z"
+                          fill="none"
+                        />
+                      </svg>
+                    </MaterialIconClose>
+                  </Icon>
+                  <ForwardRef(Box)
+                    display="block"
+                    element="span"
+                  >
+                    <span>
+                      articleEditor.panels.close
+                    </span>
+                  </ForwardRef(Box)>
+                </button>
+              </Styled(button)>
+            </ForwardRef(NavigationButton)>
+            <ForwardRef(Box)
+              flexGrow={1}
+            >
+              <div />
+            </ForwardRef(Box)>
+            <Styled(span)>
+              <span>
+                articleEditor.panels.metadata
+              </span>
+            </Styled(span)>
+          </div>
+        </Styled(div)>
+      </PanelHeader>
+      <PanelSection>
+        <Styled(div)
+          styleProps={
+            Object {
+              "dark": undefined,
+            }
+          }
+        >
+          <div>
+            <ForwardRef(TextInput)
+              label="articleEditor.panels.preTitle"
+              marginBottom={10}
+              onChange={[Function]}
+              value="Moonstone Uses"
+            >
+              <Styled(div)
+                styleProps={
+                  Object {
+                    "marginBottom": 10,
+                  }
+                }
+              >
+                <div>
+                  <Styled(label)>
+                    <label>
+                      <Styled(input)
+                        onChange={[Function]}
+                        placeholder="articleEditor.panels.preTitle"
+                        styleProps={
+                          Object {
+                            "hasError": false,
+                            "hasIcon": false,
+                          }
+                        }
+                        value="Moonstone Uses"
+                      >
+                        <input
+                          onChange={[Function]}
+                          placeholder="articleEditor.panels.preTitle"
+                          value="Moonstone Uses"
+                        />
+                      </Styled(input)>
+                      <Styled(span)
+                        styleProps={
+                          Object {
+                            "hasError": false,
+                            "hasIcon": false,
+                          }
+                        }
+                      >
+                        <span>
+                          articleEditor.panels.preTitle
+                        </span>
+                      </Styled(span)>
+                    </label>
+                  </Styled(label)>
+                </div>
+              </Styled(div)>
+            </ForwardRef(TextInput)>
+            <ForwardRef(TextInput)
+              label="articleEditor.panels.title"
+              marginBottom={10}
+              onChange={[Function]}
+              value="The Properties of Moonstone And Its Uses"
+            >
+              <Styled(div)
+                styleProps={
+                  Object {
+                    "marginBottom": 10,
+                  }
+                }
+              >
+                <div>
+                  <Styled(label)>
+                    <label>
+                      <Styled(input)
+                        onChange={[Function]}
+                        placeholder="articleEditor.panels.title"
+                        styleProps={
+                          Object {
+                            "hasError": false,
+                            "hasIcon": false,
+                          }
+                        }
+                        value="The Properties of Moonstone And Its Uses"
+                      >
+                        <input
+                          onChange={[Function]}
+                          placeholder="articleEditor.panels.title"
+                          value="The Properties of Moonstone And Its Uses"
+                        />
+                      </Styled(input)>
+                      <Styled(span)
+                        styleProps={
+                          Object {
+                            "hasError": false,
+                            "hasIcon": false,
+                          }
+                        }
+                      >
+                        <span>
+                          articleEditor.panels.title
+                        </span>
+                      </Styled(span)>
+                    </label>
+                  </Styled(label)>
+                </div>
+              </Styled(div)>
+            </ForwardRef(TextInput)>
+            <ForwardRef(TextInput)
+              label="articleEditor.panels.lead"
+              marginBottom={10}
+              onChange={[Function]}
+              value=""
+            >
+              <Styled(div)
+                styleProps={
+                  Object {
+                    "marginBottom": 10,
+                  }
+                }
+              >
+                <div>
+                  <Styled(label)>
+                    <label>
+                      <Styled(textarea)
+                        onChange={[Function]}
+                        placeholder="articleEditor.panels.lead"
+                        rows={1}
+                        styleProps={
+                          Object {
+                            "hasError": false,
+                            "hasIcon": false,
+                          }
+                        }
+                        value=""
+                      >
+                        <textarea
+                          onChange={[Function]}
+                          placeholder="articleEditor.panels.lead"
+                          rows={1}
+                          value=""
+                        />
+                      </Styled(textarea)>
+                      <Styled(span)
+                        styleProps={
+                          Object {
+                            "hasError": false,
+                            "hasIcon": false,
+                          }
+                        }
+                      >
+                        <span>
+                          articleEditor.panels.lead
+                        </span>
+                      </Styled(span)>
+                    </label>
+                  </Styled(label)>
+                </div>
+              </Styled(div)>
+            </ForwardRef(TextInput)>
+            <AuthorInput
+              label="articleEditor.panels.authors"
+              marginBottom={10}
+              onChange={[Function]}
+              value={
+                Array [
+                  Object {
+                    "id": "authorId2",
+                    "name": "Hermione Granger",
+                  },
+                ]
+              }
+            >
+              <AutocompleteInput
+                label="articleEditor.panels.authors"
+                marginBottom={10}
+                onChange={[Function]}
+                value={
+                  Array [
+                    Object {
+                      "id": "authorId2",
+                      "name": "Hermione Granger",
+                    },
+                  ]
+                }
+                valueToChipData={[Function]}
+              >
+                <Downshift
+                  defaultHighlightedIndex={null}
+                  defaultIsOpen={false}
+                  environment={[Window]}
+                  getA11yStatusMessage={[Function]}
+                  itemToString={[Function]}
+                  onChange={[Function]}
+                  onInputValueChange={[Function]}
+                  onOuterClick={[Function]}
+                  onSelect={[Function]}
+                  onStateChange={[Function]}
+                  onUserAction={[Function]}
+                  scrollIntoView={[Function]}
+                  selectedItem={null}
+                  selectedItemChanged={[Function]}
+                  stateReducer={[Function]}
+                  suppressRefError={false}
+                >
+                  <Styled(div)
+                    aria-expanded={false}
+                    aria-haspopup="listbox"
+                    aria-labelledby="downshift-0-label"
+                    aria-owns={null}
+                    role="combobox"
+                    styleProps={
+                      Object {
+                        "marginBottom": 10,
+                      }
+                    }
+                  >
+                    <div
+                      aria-expanded={false}
+                      aria-haspopup="listbox"
+                      aria-labelledby="downshift-0-label"
+                      aria-owns={null}
+                      role="combobox"
+                    >
+                      <Styled(label)
+                        htmlFor="downshift-0-input"
+                        id="downshift-0-label"
+                      >
+                        <label
+                          htmlFor="downshift-0-input"
+                          id="downshift-0-label"
+                        >
+                          <Chip
+                            icon={[Function]}
+                            key="authorId2"
+                            label="Hermione Granger"
+                            margin={2}
+                            onIconClick={[Function]}
+                          >
+                            <Styled(div)
+                              styleProps={
+                                Object {
+                                  "margin": 2,
+                                }
+                              }
+                            >
+                              <div>
+                                <Styled(span)>
+                                  <span>
+                                    Hermione Granger
+                                  </span>
+                                </Styled(span)>
+                                <ForwardRef(IconButton)
+                                  icon={[Function]}
+                                  marginLeft={-5}
+                                  onClick={[Function]}
+                                  variant="light"
+                                >
+                                  <Styled(button)
+                                    onClick={[Function]}
+                                    styleProps={
+                                      Object {
+                                        "active": undefined,
+                                        "disabled": undefined,
+                                        "marginLeft": -5,
+                                        "variant": "light",
+                                      }
+                                    }
+                                  >
+                                    <button
+                                      onClick={[Function]}
+                                    >
+                                      <Icon
+                                        block={true}
+                                        element={[Function]}
+                                      >
+                                        <MaterialIconClose
+                                          role="img"
+                                        >
+                                          <svg
+                                            role="img"
+                                            viewBox="0 0 24 24"
+                                          >
+                                            <path
+                                              d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                                            />
+                                            <path
+                                              d="M0 0h24v24H0z"
+                                              fill="none"
+                                            />
+                                          </svg>
+                                        </MaterialIconClose>
+                                      </Icon>
+                                    </button>
+                                  </Styled(button)>
+                                </ForwardRef(IconButton)>
+                              </div>
+                            </Styled(div)>
+                          </Chip>
+                          <Styled(input)
+                            aria-activedescendant={null}
+                            aria-autocomplete="list"
+                            aria-controls={null}
+                            aria-labelledby="downshift-0-label"
+                            autoComplete="off"
+                            id="downshift-0-input"
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                            onKeyDown={[Function]}
+                            styleProps={
+                              Object {
+                                "hasError": false,
+                              }
+                            }
+                            value=""
+                          >
+                            <input
+                              aria-activedescendant={null}
+                              aria-autocomplete="list"
+                              aria-controls={null}
+                              aria-labelledby="downshift-0-label"
+                              autoComplete="off"
+                              id="downshift-0-input"
+                              onBlur={[Function]}
+                              onChange={[Function]}
+                              onKeyDown={[Function]}
+                              value=""
+                            />
+                          </Styled(input)>
+                          <Styled(span)
+                            styleProps={
+                              Object {
+                                "hasError": false,
+                              }
+                            }
+                          >
+                            <span>
+                              articleEditor.panels.authors
+                            </span>
+                          </Styled(span)>
+                        </label>
+                      </Styled(label)>
+                      <AuthorInputList
+                        getItemProps={[Function]}
+                        getMenuProps={[Function]}
+                        highlightedIndex={null}
+                        inputValue=""
+                        isOpen={false}
+                      >
+                        <Styled(ul)
+                          aria-labelledby="downshift-0-label"
+                          id="downshift-0-menu"
+                          role="listbox"
+                        >
+                          <ul
+                            aria-labelledby="downshift-0-label"
+                            id="downshift-0-menu"
+                            role="listbox"
+                          />
+                        </Styled(ul)>
+                      </AuthorInputList>
+                    </div>
+                  </Styled(div)>
+                </Downshift>
+              </AutocompleteInput>
+            </AuthorInput>
+            <TagInput
+              description="articleEditor.panels.addTag"
+              label="articleEditor.panels.tags"
+              marginBottom={20}
+              onChange={[Function]}
+              value={
+                Array [
+                  "moonstone",
+                  "potions",
+                ]
+              }
+            >
+              <Styled(div)
+                styleProps={
+                  Object {
+                    "marginBottom": 20,
+                  }
+                }
+              >
+                <div>
+                  <Styled(div)>
+                    <div>
+                      <Chip
+                        icon={[Function]}
+                        label="moonstone"
+                        margin={2}
+                        onIconClick={[Function]}
+                      >
+                        <Styled(div)
+                          styleProps={
+                            Object {
+                              "margin": 2,
+                            }
+                          }
+                        >
+                          <div>
+                            <Styled(span)>
+                              <span>
+                                moonstone
+                              </span>
+                            </Styled(span)>
+                            <ForwardRef(IconButton)
+                              icon={[Function]}
+                              marginLeft={-5}
+                              onClick={[Function]}
+                              variant="light"
+                            >
+                              <Styled(button)
+                                onClick={[Function]}
+                                styleProps={
+                                  Object {
+                                    "active": undefined,
+                                    "disabled": undefined,
+                                    "marginLeft": -5,
+                                    "variant": "light",
+                                  }
+                                }
+                              >
+                                <button
+                                  onClick={[Function]}
+                                >
+                                  <Icon
+                                    block={true}
+                                    element={[Function]}
+                                  >
+                                    <MaterialIconClose
+                                      role="img"
+                                    >
+                                      <svg
+                                        role="img"
+                                        viewBox="0 0 24 24"
+                                      >
+                                        <path
+                                          d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                                        />
+                                        <path
+                                          d="M0 0h24v24H0z"
+                                          fill="none"
+                                        />
+                                      </svg>
+                                    </MaterialIconClose>
+                                  </Icon>
+                                </button>
+                              </Styled(button)>
+                            </ForwardRef(IconButton)>
+                          </div>
+                        </Styled(div)>
+                      </Chip>
+                      <Chip
+                        icon={[Function]}
+                        label="potions"
+                        margin={2}
+                        onIconClick={[Function]}
+                      >
+                        <Styled(div)
+                          styleProps={
+                            Object {
+                              "margin": 2,
+                            }
+                          }
+                        >
+                          <div>
+                            <Styled(span)>
+                              <span>
+                                potions
+                              </span>
+                            </Styled(span)>
+                            <ForwardRef(IconButton)
+                              icon={[Function]}
+                              marginLeft={-5}
+                              onClick={[Function]}
+                              variant="light"
+                            >
+                              <Styled(button)
+                                onClick={[Function]}
+                                styleProps={
+                                  Object {
+                                    "active": undefined,
+                                    "disabled": undefined,
+                                    "marginLeft": -5,
+                                    "variant": "light",
+                                  }
+                                }
+                              >
+                                <button
+                                  onClick={[Function]}
+                                >
+                                  <Icon
+                                    block={true}
+                                    element={[Function]}
+                                  >
+                                    <MaterialIconClose
+                                      role="img"
+                                    >
+                                      <svg
+                                        role="img"
+                                        viewBox="0 0 24 24"
+                                      >
+                                        <path
+                                          d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                                        />
+                                        <path
+                                          d="M0 0h24v24H0z"
+                                          fill="none"
+                                        />
+                                      </svg>
+                                    </MaterialIconClose>
+                                  </Icon>
+                                </button>
+                              </Styled(button)>
+                            </ForwardRef(IconButton)>
+                          </div>
+                        </Styled(div)>
+                      </Chip>
+                      <Styled(input)
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onKeyDown={[Function]}
+                        styleProps={
+                          Object {
+                            "hasError": false,
+                            "isPlaceholderShown": false,
+                          }
+                        }
+                        value=""
+                      >
+                        <input
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          onKeyDown={[Function]}
+                          value=""
+                        />
+                      </Styled(input)>
+                      <Styled(label)
+                        styleProps={
+                          Object {
+                            "hasError": false,
+                            "isPlaceholderShown": false,
+                          }
+                        }
+                      >
+                        <label>
+                          articleEditor.panels.tags
+                        </label>
+                      </Styled(label)>
+                    </div>
+                  </Styled(div)>
+                  <Styled(div)>
+                    <div>
+                      articleEditor.panels.addTag
+                    </div>
+                  </Styled(div)>
+                </div>
+              </Styled(div)>
+            </TagInput>
+            <ForwardRef(Box)>
+              <div>
+                <Toggle
+                  checked={true}
+                  label="articleEditor.panels.breakingNews"
+                  onChange={[Function]}
+                >
+                  <label>
+                    <span>
+                      <span>
+                        articleEditor.panels.breakingNews
+                      </span>
+                      <span />
+                    </span>
+                    <input
+                      checked={true}
+                      onChange={[Function]}
+                      type="checkbox"
+                    />
+                    <span />
+                  </label>
+                </Toggle>
+              </div>
+            </ForwardRef(Box)>
+          </div>
+        </Styled(div)>
+      </PanelSection>
+      <PanelSectionHeader
+        title="articleEditor.panels.image"
+      >
+        <Styled(div)>
+          <div>
+            articleEditor.panels.image
+          </div>
+        </Styled(div)>
+      </PanelSectionHeader>
+      <PanelSection
+        dark={true}
+      >
+        <Styled(div)
+          styleProps={
+            Object {
+              "dark": true,
+            }
+          }
+        >
+          <div>
+            <ForwardRef(Box)
+              height={200}
+            >
+              <div>
+                <ForwardRef(Card)>
+                  <Styled(div)
+                    styleProps={Object {}}
+                  >
+                    <div>
+                      <PlaceholderInput
+                        onAddClick={[Function]}
+                      >
+                        <div>
+                          <ForwardRef(IconButton)
+                            icon={[Function]}
+                            onClick={[Function]}
+                            variant="large"
+                          >
+                            <Styled(button)
+                              onClick={[Function]}
+                              styleProps={
+                                Object {
+                                  "active": undefined,
+                                  "disabled": undefined,
+                                  "variant": "large",
+                                }
+                              }
+                            >
+                              <button
+                                onClick={[Function]}
+                              >
+                                <Icon
+                                  block={true}
+                                  element={[Function]}
+                                >
+                                  <MaterialIconAdd
+                                    role="img"
+                                  >
+                                    <svg
+                                      role="img"
+                                      viewBox="0 0 24 24"
+                                    >
+                                      <path
+                                        d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+                                      />
+                                      <path
+                                        d="M0 0h24v24H0z"
+                                        fill="none"
+                                      />
+                                    </svg>
+                                  </MaterialIconAdd>
+                                </Icon>
+                              </button>
+                            </Styled(button)>
+                          </ForwardRef(IconButton)>
+                        </div>
+                      </PlaceholderInput>
+                    </div>
+                  </Styled(div)>
+                </ForwardRef(Card)>
+              </div>
+            </ForwardRef(Box)>
+          </div>
+        </Styled(div)>
+      </PanelSection>
+      <PanelSectionHeader
+        title="articleEditor.panels.peering"
+      >
+        <Styled(div)>
+          <div>
+            articleEditor.panels.peering
+          </div>
+        </Styled(div)>
+      </PanelSectionHeader>
+      <PanelSection>
+        <Styled(div)
+          styleProps={
+            Object {
+              "dark": undefined,
+            }
+          }
+        >
+          <div>
+            <Toggle
+              checked={false}
+              description="articleEditor.panels.allowPeerPublishing"
+              label="articleEditor.panels.peerShare"
+              onChange={[Function]}
+            >
+              <label>
+                <span>
+                  <span>
+                    articleEditor.panels.peerShare
+                  </span>
+                  <span>
+                    articleEditor.panels.allowPeerPublishing
+                  </span>
+                </span>
+                <input
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+                <span />
+              </label>
+            </Toggle>
+          </div>
+        </Styled(div)>
+      </PanelSection>
+    </div>
+  </Styled(div)>
+  <Drawer
+    open={false}
+    width={480}
+  >
+    <Modal
+      open={false}
+    >
+      <Transition
+        appear={false}
+        enter={true}
+        exit={true}
+        in={false}
+        mountOnEnter={false}
+        onEnter={[Function]}
+        onEntered={[Function]}
+        onEntering={[Function]}
+        onExit={[Function]}
+        onExited={[Function]}
+        onExiting={[Function]}
+        timeout={200}
+        unmountOnExit={true}
+      />
+    </Modal>
+  </Drawer>
+  <Drawer
+    open={false}
+    width={480}
+  >
+    <Modal
+      open={false}
+    >
+      <Transition
+        appear={false}
+        enter={true}
+        exit={true}
+        in={false}
+        mountOnEnter={false}
+        onEnter={[Function]}
+        onEntered={[Function]}
+        onEntering={[Function]}
+        onExit={[Function]}
+        onExited={[Function]}
+        onExiting={[Function]}
+        timeout={200}
+        unmountOnExit={true}
+      />
+    </Modal>
+  </Drawer>
+</ArticleMetadataPanel>
+`;
