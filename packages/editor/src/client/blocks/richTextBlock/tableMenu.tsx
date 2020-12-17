@@ -18,6 +18,7 @@ export function TableMenu() {
   const [nrows, setNrows] = useState(2)
   const [ncols, setNcols] = useState(1)
   const [borderColor, setBorderColor] = useState('black')
+  // TODO useReducer and set a nice tableProps interface.
 
   const [showRemoveConfirm, setShowRemoveConfirm] = useState(false)
 
